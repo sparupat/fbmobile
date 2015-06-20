@@ -1,0 +1,30 @@
+<head>
+  <title>fbmobile</title>
+</head>
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+
+  {{> loginButtons}}
+
+  <div id="fb-root"></div>
+
+	<script>
+	(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=425501954225037";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+	
+	window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '425501954225037',
+          xfbml      : true,
+          version    : 'v2.3'
+        });
+      };
+	</script>
+	<div class="fb-comments" data-href="http://mscl.org/matches/scorecard/5538937d5ec78d0d643dc85a" data-numposts="5"></div>
+</body>
