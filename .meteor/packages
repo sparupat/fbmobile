@@ -7,5 +7,5 @@
 meteor-platform
 autopublish
 insecure
-accounts-facebook
 accounts-ui
+particle4dev:cordova-fb

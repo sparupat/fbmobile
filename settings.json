@@ -2,7 +2,7 @@
     "cordova": {
         "APP_ID": "425501954225037",
         "APP_NAME": "advaita",
-        "secret": "xxxxxxxxxxxxxxx"
+        "secret": "xxxxxxxxxxxxxxxxxx"
     },
     "permissions": [
         "public_profile",
